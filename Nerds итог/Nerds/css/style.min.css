@@ -1,0 +1,309 @@
+@charset "UTF-8"; 
+
+ @font-face{  font-family:'symbols-nerds';   src:url('../font/symbols-nerds.eot?27841936');   src:url('../font/symbols-nerds.eot?27841936#iefix') format('embedded-opentype'),       url('../font/symbols-nerds.woff?27841936') format('woff'),       url('../font/symbols-nerds.ttf?27841936') format('truetype'),       url('../font/symbols-nerds.svg?27841936#symbols-nerds') format('svg');   font-weight:normal;   font-style:normal}
+ [class^="icon-"]:before, [class*="icon-"]:before{  font-family:"symbols-nerds";   font-style:normal;   font-weight:normal;   speak:none;   display:inline-block;   text-decoration:inherit;   width:1em;   margin-right:.2em;   text-align:center;   font-variant:normal;   text-transform:none;   line-height:1em;   margin-left:.2em;   vertical-align:baseline}
+ 
+.icon-basket:before{content:'\62'}
+
+.icon-facebook:before{content:'\66'}
+
+.icon-twitter:before{content:'\74'}
+
+.icon-vk:before{content:'\76'}
+
+.icon-up-dir:before{content:'\25b2'}
+
+.icon-down-dir:before{content:'\25bc'}
+
+.icon-circle:before{content:'\25cb'}
+
+.icon-circle-dot:before{content:'\25cf'}
+
+.icon-check-off:before{content:'\2610'}
+
+.icon-check-on:before{content:'\2611'}
+
+.icon-instagramm:before{content:'📷'}
+
+body{    font-size:16px;     line-height:16px;     color:#000;     font-weight:500;     font-family:"Roboto","Arial",sans-serif}
+.main-header{    background:#eee;     min-width:880px}
+.header-menu{    width:880px;     margin:0 auto}
+.clearfix:after{    content:"";     display:table;     clear:both}
+.header-logo{    width:139px;     padding:30px 0;     min-height:60px;     margin-top:30px;     float:left;     background-image:url("../img/logo.png");     background-repeat:no-repeat;     background-size:auto;     text-indent:100%;     overflow:hidden;     white-space:nowrap}
+.header-navigation{    margin-bottom:30px;     float:left;     width:450px;     margin-left:140px}
+.header-navigation ul{    margin:0;     padding:0;     list-style:none;     font-size:0}
+.header-navigation li{    display:inline-block;     vertical-align:top;     font-size:14px;     line-height:30px;     margin-top:55px}
+.header-navigation a{    margin-left:43px;     text-decoration:none;     color:#000;     text-transform:uppercase}
+.header-navigation .active a{    box-shadow:0 2px 0 0 #fb565a}
+.header-navigation a:hover{   color:#fb565a}
+.header-navigation a:active{    color:#000;     opacity:0.3;     box-shadow:none}
+.user-block{    float:right;     width:150px;     font-size:14px;     line-height:30px;     padding-top:55px;     text-align:right}
+.basket{    position:relative;     display:inline-block;     font-size:14px;     line-height:14px;     text-transform:uppercase;     color:#000;     text-decoration:none;     margin-left:26px;     vertical-align:baseline}
+.icon-basket::before{    opacity:0.3;     margin-right:10px;     font-size:16px}
+.basket:hover{    color:#fb565a}
+.icon-basket:hover::before{    opacity:1}
+.basket:active{    color:#000;     opacity:0.3}
+.basket:active::before{    color:#000;     opacity:0.3}
+.header-greeting{    margin:0 auto;     width:700px}
+.header-greeting h1{    font-size:40px;     line-height:48px;     color:#000;     text-align:center;     text-transform:uppercase;      padding-bottom:85px;     margin-top:30px}
+.header-slider{    position:relative;     margin:0 auto;     width:880px}
+.header-slider input[type="radio"]{    display:none}
+.slider-inner{    overflow:hidden;     min-height:290px}
+.header-slide{    width:300%;     -webkit-transition:.8s ease;     -moz-transition:.8s ease;     -ms-transition:.8s ease;     -o-transition:.8s ease;     transition:.8s ease;     font-size:0}
+.header-slide-one{    float:left;     font-size:16px;     line-height:22px;     width:880px;     margin:0 auto}
+.header-slide-two{    float:left;     font-size:16px;     line-height:22px;     width:880px;     margin:0 auto}
+.header-slide-three{    float:left;     font-size:16px;     line-height:22px;     width:880px;     margin:0 auto}
+.slide-text{    float:left;     width:470px}
+.slide-text .slide-header{    font-size:36px;     line-height:36px;     margin-top:40px;     margin-bottom:20px}
+.slide-text p{    font-size:15px;     line-height:22px;     color:#283136}
+.header-slide-one .slide-text{    width:340px}
+.header-slider-image-1{    background:#eee url("../img/slide-1.png");     width:340px;      background-repeat:no-repeat;     padding-top:300px;     float:right;     margin-top:20px}
+.header-slider-image-2{    background:#eee url("../img/slide-2.png");     width:340px;      background-repeat:no-repeat;     padding-top:300px;     float:right;     margin-right:10px;     margin-top:20px}
+.header-slider-image-3{    background:#eee url("../img/slide-3.png");     width:340px;      background-repeat:no-repeat;     padding-top:320px;     float:right;     margin-right:10px}
+.know-more{    display:inline-block;     background:#fb565a;     border-radius:5px;     min-width:240px;     text-align:center;     vertical-align:middle;     text-decoration:none;     text-transform:uppercase;     font-size:12px;     line-height:18px;     color:#fff;     padding-top:10px;     padding-bottom:10px;     margin-top:15px}
+.know-more:hover{    background:#d6494d}
+.know-more:active{    background:#b63538;     box-shadow:inset 0 3px 0 0 #9b2d30}
+.slider-controls{    position:absolute;     width:60px;     margin:0 auto;     bottom:90px;     z-index:100;     text-align:center;     left:45%}
+.slider-controls label{    display:inline-block;     width:10px;     height:10px;     margin:0 3px;     background:#fff;     cursor:pointer;       border:3px solid #fff;     border-radius:50%;        vertical-align:top}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"], 
+#btn-2:checked ~ .slider-controls label[for="btn-2"], 
+#btn-3:checked ~ .slider-controls label[for="btn-3"]{    background-color:#666}
+
+#btn-1:checked ~ .slider-inner .header-slide{    -webkit-transform:translate(0);     -moz-transform:translate(0);     -o-transform:translate(0);     -ms-transform:translate(0);     transform:translate(0)}
+
+#btn-2:checked ~ .slider-inner .header-slide{    -webkit-transform:translate(-880px);     -moz-transform:translate(-880px);     -o-transform:translate(-880px);     -ms-transform:translate(-880px);     transform:translate(-880px)}
+
+#btn-3:checked ~ .slider-inner .header-slide{    -webkit-transform:translate(-1760px);     -moz-transform:translate(-1760px);     -o-transform:translate(-1760px);     -ms-transform:translate(-1760px);     transform:translate(-1760px)}
+.main{    margin:0 auto;     width:880px;     margin-top:45px}
+.main-left-column{    width:240px;     float:left}
+.main-right-column{    width:560px;     float:right}
+.range-header{    text-transform:uppercase;     font-size:18px;     line-height:30px;     padding-top:3px}
+.range-filter{    padding-top:5px;     width:240px;     margin:auto}
+.range-controls{    position:relative;     height:80px;     padding:0 30px;     margin-bottom:15px;     background:#f1f1f1;     border-radius:5px;     overflow:hidden}
+.range-scale{    margin-top:38px;     height:2px;     background:#d7dcde;     width:180px}
+.range-bar{    height:2px;     background:#00ca74;     width:140px}
+.range-toggle{    position:absolute;     top:28px;     width:4px;     height:4px;     border-style:solid;     border-width:9px;     border-color:#fff;     background:#ababab;     cursor:pointer;     border-radius:50%;     padding:2px}
+.min-toggle{    left:20px}
+.max-toggle{    left:160px}
+.price-filter{    text-transform:uppercase;     font-size:16px;     line-height:22px;     color:#283136;     vertical-align:middle}
+.price-filter label:last-child{    padding-left:17px}
+.min-price{    border:0;     background:#f1f1f1;     max-width:80px;     font-size:16px;     line-height:22px;     color:#283136;     min-height:40px;     border-radius:5px;     text-align:center}
+.min-price:hover{    border:2px solid #a2a9ac}
+.min-price:focus{    border:2px solid #56bffb}
+.min-price:active, .min-price:focus{    outline:none}
+.max-price{    margin-left:7px;     border:0;     background:#f1f1f1;     max-width:80px;     font-size:16px;     line-height:22px;     color:#283136;     height:40px;     border-radius:5px;     text-align:center}
+.max-price:hover{    border:2px solid #a2a9ac}
+.max-price:focus{    border:2px solid #56bffb}
+.max-price:active, .max-price:focus{    outline:none}
+.grid-header{    font-size:18px;     line-height:30px;     text-transform:uppercase;     padding-top:25px;     margin-bottom:5px}
+.grid-filter ul{    list-style:none;     padding:0;     margin-top:14px}
+.grid-filter li{    color:#283136}
+.features-filter ul{    list-style:none;     padding:0}
+.features-filter li{    margin-bottom:20px;     color:#283136}
+.features-header{    font-size:18px;     line-height:30px;     text-transform:uppercase;     padding-top:10px}
+input[type="radio"]{    display:none}
+
+input[type="radio"]+label{    line-height:20px;     font-size:16px;     display:inline-block;     vertical-align:top;     cursor:pointer;     padding-bottom:19px;     color:#283136}
+input[type="radio"]+label:hover{    color:#000}
+input[type="radio"]+label::before{    content:"\25cb";     display:inline-block;     font-family:"symbols-nerds";     vertical-align:top;     font-size:25px;     margin-right:10px;     opacity:.3}
+input[type="radio"]:checked+label::before{    content:"\25cf";     margin-right:10px}
+input[type="radio"]:disabled+label::before{    opacity:.1}
+input[type="radio"]:checked+label:hover:before{    opacity:.5}
+
+input[type="checkbox"]{    display:none}
+
+input[type="checkbox"]+label{    line-height:20px;     font-size:16px;     display:inline-block;     vertical-align:top;     cursor:pointer;     color:#283136}
+input[type="checkbox"]+label:hover{    color:#000}
+input[type="checkbox"]+label::before{    content:"\2610";     display:inline-block;     font-family:"symbols-nerds";     width:25px;     font-size:25px;     margin-right:10px;     opacity:.3;     vertical-align:top}
+input[type="checkbox"]:checked+label::before{    content:"\2611";     margin-right:10px}
+input[type="checkbox"]:disabled+label::before{    opacity:.1}
+input[type="checkbox"]:checked+label:hover:before{    opacity:.5}
+
+.filter-button{    border:none;     text-align:center;     background:#f1f1f1;     margin-top:35px;     min-width:150px;     text-transform:uppercase;     padding-top:10px;     padding-bottom:10px;     font-size:12px;     border-radius:5px}
+.filter-button:hover{    background:#e5e5e5}
+.filter-button:active{    background:#d5d5d5;     box-shadow:inset 0 3px 0 0 #b5b5b5}
+.filter-button:active, .filter-button:focus{    outline:none}
+.catalog-sorting span{    text-transform:uppercase;     font-size:12px;     line-height:18px}
+.price{    margin-left:30px;     text-transform:uppercase;     font-size:12px;     line-height:18px;     text-decoration:none;     color:#444;     border-bottom:1px dotted #00ca74;     opacity:0.3}
+.type{    margin-left:40px;     text-transform:uppercase;     font-size:12px;     line-height:18px;     text-decoration:none;     color:#444;     border-bottom:1px dotted #00ca74;     opacity:0.3}
+.functional{    margin-left:40px;     text-transform:uppercase;     font-size:12px;     line-height:18px;     text-decoration:none;     color:#444;     border-bottom:1px dotted #00ca74;     opacity:0.3}
+.type:hover, 
+.price:hover, 
+.functional:hover{    border-bottom:1px solid #00ca74;     color:#000}
+.type:active, 
+.price:active, 
+.functional:active{    border-bottom:none;     color:#000;     opacity:1}
+.catalog-sorting{    padding-top:35px;     width:480px;     display:inline-block;     vertical-align:baseline}
+.up-down{    display:inline-block;     margin-left:40px;     vertical-align:baseline}
+.down-button{    color:#000;     text-decoration:none;     font-size:22px;     opacity:0.3}
+.up-down .active{    color:#00ca74;     opacity:1}
+.down-button::before{    width:4px}
+.up-button{    text-decoration:none;     color:#000;     font-size:22px;     opacity:0.3}
+.up-button::before{    width:4px}
+.down-button:hover, 
+.up-button:hover{    color:#000;     opacity:0.3}
+.down-button:active, 
+.up-button:active{    opacity:1}
+.catalog-block{    font-size:0px;     text-align:left;     margin:0 auto}
+.catalog-item{    display:inline-block;     font-size:14px;     vertical-align:middle;     width:240px;     position:relative;     margin-bottom:60px}
+.catalog-item .dovetail-bottom, 
+.catalog-item .avenue-bottom{    margin-bottom:15px}
+.catalog-item:nth-child(2n){    margin-left:80px}
+.catalog-item-top{    width:240px;     background:#f1f1f1;     padding-top:10px;     margin-top:20px;     border-radius:5px 5px 0px 0px;     text-align:left}
+.catalog-item:hover .catalog-item-top{    background:#797979}
+.catalog-item-top-points{    max-width:8px;     max-height:8px;     border:4px solid #fff;     background:#fff;     border-radius:50%;     display:inline-block;     margin-left:10px;     vertical-align:top;     margin-bottom:10px}
+.aviator-top, 
+.forte-top, 
+.sunset-top, 
+.thai-top, 
+.avenue-top, 
+.dovetail-top{    display:none;     text-align:center;     max-width:200px;     background:#fff;     top:65px;     left:20px;     right:20px;     position:absolute;     min-height:200px;     padding-top:10px;     padding-left:15px;     padding-right:15px;     font-size:14px}
+.catalog-item:hover .aviator-top{    display:block}
+.catalog-item:nth-child(2):hover .sunset-top{    display:block}
+.catalog-item:nth-child(3):hover .forte-top{    display:block}
+.catalog-item:nth-child(4):hover .thai-top{    display:block}
+.catalog-item:nth-child(5):hover .avenue-top{    display:block}
+.catalog-item:nth-child(6):hover .dovetail-top{    display:block}
+.catalog-header{    text-transform:uppercase;     font-size:18px;     margin-top:25px}
+.buy{font-weight:500;    display:inline-block;     border:none;     border-radius:5px;     text-align:center;     background:#fb565a;     position:absolute;     top:135px;     left:30px;     min-height:40px;     width:140px;     padding-top:10px;     color:#fff;     text-decoration:none;     text-transform:uppercase;     vertical-align:baseline;     font-size:18px;     font-weight:400}
+.buy:hover{    background:#d6494d}
+.buy:active{    background:#b63538;     box-shadow:inset 0 3px 0 0 #9b2d30}
+.paginator{   font-size:0px}
+.paginator a{    font-size:12px;     line-height:18px;     display:inline-block;     vertical-align:top;     color:#000;     background:#f1f1f1;     text-transform:uppercase;     padding-left:15px;     padding-right:15px;     padding-top:10px;     padding-bottom:10px;     text-decoration:none;     margin-bottom:80px;     border-radius:5px}
+.paginator a:last-child{    min-width:145px;     text-align:center}
+.paginator a:nth-child(2n){    margin-left:10px}
+.paginator a:nth-child(2n+1){    margin-left:10px}
+.paginator a:first-child{    margin-left:0px}
+.paginator .active{    background:#fff;     box-shadow:inset 0 0 0 2px #f2f2f2}
+.paginator a:nth-child(2n):hover{    background:#e5e5e5}
+.paginator a:nth-child(3):hover{    background:#e5e5e5}
+.paginator a:nth-child(2n):active{    background:#d5d5d5;     box-shadow:inset 0 3px 0 0 #b5b5b5}
+.paginator a:nth-child(3):active{    background:#d5d5d5;     box-shadow:inset 0 3px 0 0 #b5b5b5}
+.general{    margin-bottom:80px}
+.general-user{    border-bottom:1px solid #eee;     color:#283136;     font-size:15px;     line-height:22px;     padding-bottom:80px;     width:880px;     margin:0 auto}
+.web{    float:left;     text-align:left;     width:240px;     margin-right:80px;     margin-top:80px}
+.apps{    float:left;     text-align:left;     width:240px;     margin-right:80px;     margin-top:80px}
+.presentation{    float:right;     text-align:left;     margin-right:0;     width:240px;     margin-top:80px}
+.web h3, 
+.apps h3, 
+.presentation h3{    font-size:18px;     text-transform:uppercase;     padding-top:3px}
+.web p, 
+.apps p, 
+.presentation p{    color:#283136}
+.btn-action{    display:inline-block;     border-radius:5px;     min-width:140px;     text-align:center;     text-decoration:none;     text-transform:uppercase;     font-size:12px;     line-height:18px;     color:#fff;     padding-top:10px;     padding-bottom:10px;     margin-top:10px}
+.red{    background-color:#fb565a}
+.green{    background-color:#00ca74}
+.yellow{    background-color:#efc84a}
+.red:hover{    background:#d6494d}
+.red:active{    background:#b63538;     box-shadow:inset 0 3px 0 0 #9b2d30}
+.green:hover{    background:#01a25e}
+.green:active{    background:#009053;     box-shadow:inset 0 3px 0 0 #007a46}
+.yellow:hover{    background:#d6ae2c}
+.yellow:active{    background:#c09b24;     box-shadow:inset 0 3px 0 0 #b08f25}
+.general-info{    color:#283136;     font-size:15px;     line-height:22px;     padding-top:35px;     width:880px;     margin:0 auto}
+.general-description{    width:580px;     float:left}
+.general-description p{    font-size:16px;     line-height:22px;     color:#283136}
+.general-description .description{    font-size:36px;     line-height:36px;     margin-bottom:20px;     margin-top:35px}
+.general-logotype{    text-align:top;     float:right;      font-size:0;     position:relative;     width:240px;     border-bottom:1px solid #eee;     height:137px}
+.general-logo{    width:190px;     padding:50px 0;     min-height:60px;     background-image:url("../img/logo-1.png");     background-repeat:no-repeat;     display:inline-block;     margin-top:25px;     position:absolute;     margin-left:30px;     vertical-align:baseline;     background-size:auto;     text-indent:100%;     overflow:hidden;     white-space:nowrap}
+.age{    text-transform:uppercase;     display:inline-block;     margin-top:125px;     position:absolute;     margin-left:70px;     background:#fff;     width:110px;     padding-left:10px;     font-size:16px;     vertical-align:baseline}
+.general-services{    border-bottom:1px solid #eee;     font-size:15px;     line-height:22px;     padding-bottom:60px;     width:880px;     margin:0 auto}
+.performance{    float:left;     width:620px}
+.performance ul{    list-style:none;     margin-top:0px;     font-size:16px;     padding-left:0;     padding-top:5px}
+.performance ul li:before{    display:inline-block;     content:"";     height:2px;     width:25px;     background:#fb565a;     margin-right:1ex;     vertical-align:middle}
+.performance li, 
+.conditions li{    padding-top:20px;     color:#283136}
+.conditions ul{    list-style:none;     margin-top:0px;     font-size:16px;     padding-left:0;     padding-top:5px}
+.conditions ul li:before{    display:inline-block;     content:"";     height:2px;     width:25px;     background:#fb565a;     margin-right:1ex;     vertical-align:middle}
+
+.conditions{    float:right;     width:240px}
+.conditions-header, 
+.perfomance-header{    text-transform:uppercase;     padding-top:10px;     font-size:16px;     margin-bottom:0;     color:#283136}
+.general-links{    border-bottom:1px solid #eee;     text-align:center;     width:880px;     margin:0 auto;     padding-top:10px;     padding-bottom:10px}
+.link{    float:left;     vertical-align:middle;     margin-right:105px}
+.last-link{    float:right;     vertical-align:middle;     margin-right:0}
+.glukhanko{    opacity:0.5;     display:inline-block}
+.html-academy{    opacity:0.5;     display:inline-block}
+.barbershop{    opacity:0.5;     display:inline-block}
+.html-academy:hover, 
+.barbershop:hover, 
+.glukhanko:hover{    opacity:1}
+.html-academy:active, 
+.barbershop:active, 
+.glukhanko:active{    opacity:1}
+.main-footer{    background:#fff;     min-width:880px;     margin:0 auto}
+.footer-map{    display:block;     position:relative;     height:420px;     overflow:hidden;     background:url("../img/map.jpg") no-repeat;     background-size:cover;     position:relative}
+.footer-logo{    position:absolute;     background:url("../img/logo-2.png") no-repeat;     width:250px;     height:250px;     right:225px;     left:70%;     top:115px;     z-index:999;     display:none}
+.footer-contacts{    position:absolute;     background:#fff;     width:250px;     padding-left:20px;     left:19%;     top:90px;     min-height:240px;     font-size:16px;     line-height:16px;     z-index:999}
+.contacts{    padding-top:20px;     color:#666}
+.contacts-header{    font-size:16px;     margin-bottom:15px;     color:#000}
+.contact-block{    width:210px;     line-height:22px;     font-size:16px;     margin-top:0}
+.tel{    padding-top:5px;     font-size:16px;     color:#666}
+.button-write{    display:inline-block;     background:#fb565a;     border-radius:5px;     width:205px;     text-align:center;     min-height:40px;     text-decoration:none;     text-transform:uppercase;     font-size:12px;     line-height:20px;     color:#fff;     padding-top:10px;     margin-top:15px;     margin-left:2px;     vertical-align:baseline}
+.button-write:hover{    background:#d6494d}
+.button-write:active{    background:#b63538;     box-shadow:inset 0 3px 0 0 #9b2d30}
+.footer-social{    min-height:215px;     margin:0 auto;     width:880px;     font-size:0px;     display:block}
+.footer-social-btn{    float:left;     margin-top:80px;     height:70px;     font-size:0px}
+.social-btn{    width:60px;     text-align:center;     height:60px;     border-radius:50%;     background-color:#e1e1e1;     display:inline-block;     position:relative;     margin-right:5px;     vertical-align:middle}
+.social-btn:nth-child(2){    margin-left:25px}
+.social-btn:nth-child(3){    margin-left:25px}
+.social-btn:hover{    background:#fb565a}
+.social-btn:active{    background:#d6494d;     box-shadow:inset 0 3px 0 0 #9b2d30}
+.social-btn:before{    font-size:23px;     line-height:16px;     text-decoration:none;     color:#fff;     margin-top:35%}
+.footer-title{    float:right;     max-width:550px;     margin-top:50px;     font-size:16px;     line-height:22px;     margin-right:16px}
+.footer-title h2{    font-size:36px;     line-height:36px;     margin-bottom:0}
+.footer-title p{    margin-top:10px;     color:#283136}
+.write-us{    position:fixed;     margin-top:50px;     width:630px;     height:415px;     box-shadow:0 10px 50px 10px rgba(0,0,0,.7);     display:none;     background-color:#fff;     vertical-align:middle;     top:10%;     left:50%;     margin-left:-315px;     z-index:999}
+@-webkit-keyframes bounce{  0%{    -webkit-transform:translateY(-2000px);     -mos-transform:translateY(-2000px);     -o-transform:translateY(-2000px);     transform:translateY(-2000px)}
+  70%{    -webkit-transform:translateY(30px);     -moz-transform:translateY(30px);     -o-transform:translateY(30px);     transform:translateY(30px)}
+  90%{    -webkit-transform:translateY(-10px);     -moz-transform:translateY(-10px);     -o-transform:translateY(-10px);     transform:translateY(-10px)}
+  100%{    -webkit-transform:translateY(0);     -moz-transform:translateY(0);     -o-transform:translateY(0);     transform:translateY(0)}
+}
+
+@keyframes bounce{  0%{    -webkit-transform:translateY(-2000px);     -mos-transform:translateY(-2000px);     -o-transform:translateY(-2000px);     transform:translateY(-2000px)}
+  70%{    -webkit-transform:translateY(30px);     -moz-transform:translateY(30px);     -o-transform:translateY(30px);     transform:translateY(30px)}
+  90%{    -webkit-transform:translateY(-10px);     -moz-transform:translateY(-10px);     -o-transform:translateY(-10px);     transform:translateY(-10px)}
+  100%{    -webkit-transform:translateY(0);     -moz-transform:translateY(0);     -o-transform:translateY(0);     transform:translateY(0)}
+}
+
+.write-us-show{    display:block;     -webkit-animation:bounce 0.6s;     animation:bounce 0.6s}
+
+@keyframes shake{  0%,100%{    -webkit-transform:translateX(0);     -moz-transform:translateX(0);     -o-transform:translateX(0);     transform:translateX(0)}
+  10%, 30%, 50%, 70%, 90%{    -webkit-transform:translateX(-10px);     -moz-transform:translateX(-10px);     -o-transform:translateX(-10px);     transform:translateX(-10px)}
+  20%, 40%, 60%, 80%{    -webkit-transform:translateX(10px);     -moz-transform:translateX(10px);     -o-transform:translateX(10px);     transform:translateX(10px)}
+}
+
+@-webkit-keyframes shake{  0%,100%{    -webkit-transform:translateX(0);     -moz-transform:translateX(0);     -o-transform:translateX(0);     transform:translateX(0)}
+  10%, 30%, 50%, 70%, 90%{    -webkit-transform:translateX(-10px);     -moz-transform:translateX(-10px);     -o-transform:translateX(-10px);     transform:translateX(-10px)}
+  20%, 40%, 60%, 80%{    -webkit-transform:translateX(10px);     -moz-transform:translateX(10px);     -o-transform:translateX(10px);     transform:translateX(10px)}
+}
+.write-error{  -webkit-animation:shake 0.6s;   animation:shake 0.6s}
+
+.write-us-close{      position:absolute;     top:5px;     right:5px;     width:41px;     height:41px;     background:url("../img/close.png");  background-repeat:no-repeat;  cursor:pointer;  text-decoration:none}
+.write-us .float{ width:50%;  float:left}
+.write-us .float-two{ padding-left:5px}
+.write-us .float label{ margin-top:35px;  display:block}
+.write-us .float-one label{ margin-left:80px}
+.write-us input[name="login"]{ width:220px;  margin-top:10px;  padding:10px;  border:2px solid #d7dcde;  margin-left:80px;  text-transform:uppercase;  font-size:12px;  line-height:18px;  border-radius:5px}
+.write-us input[name="login"]:hover{ border:2px solid #a2a9ac}
+.write-us input[name="login"]:focus{ border:2px solid #56bffb}
+.write-us input[name="login"]:active, .write-us input[name="login"]:focus{ outline:none}
+.write-us input[name="e-mail"]{ width:220px;  margin-top:10px;  padding:10px;  border:2px solid #d7dcde;  text-transform:uppercase;  font-size:12px;  line-height:18px;  border-radius:5px}
+.write-us input[name="e-mail"]:hover{ border:2px solid #a2a9ac}
+.write-us input[name="e-mail"]:focus{ border:2px solid #56bffb}
+.write-us input[name="e-mail"]:active, .write-us input[name="e-mail"]:focus{ outline:none}
+.write-us .textarea{ float:left;  margin-top:0px}
+.write-us textarea{ width:460px;  border:2px solid #d7dcde;  text-transform:uppercase;  font-size:12px;  line-height:18px;  border-radius:5px;  margin-left:80px;  padding:10px}
+.write-us textarea:hover{ border:2px solid #a2a9ac}
+.write-us textarea:focus{ border:2px solid #56bffb}
+.write-us textarea:active, .write-us textarea:focus{ outline:none}
+.write-us .textarea label{ display:block;  margin-left:80px;  margin-bottom:10px;  margin-top:5px}
+.write-us input[name="send"]{ display:inline-block;  border-radius:5px;  width:220px;  text-align:center;  text-decoration:none;  text-transform:uppercase;  font-size:12px;  line-height:18px;  color:#fff;  padding-top:10px;  padding-bottom:10px;  margin-top:30px;  background:#fb565a;  margin-left:80px;  border:none;  vertical-align:baseline}
+.write-us input[name="send"]:hover{ background:#d6494d}
+.write-us input[name="send"]:active{ background:#b63538;  box-shadow:inset 0 3px 0 0 #9b2d30;  border:none}
+.write-us input[name="send"]:active, .write-us input[name="send"]:focus{ outline:none}
+.write-us input[name="cancel"]{ display:inline-block;  border-radius:5px;  width:220px;  text-align:center;  text-decoration:none;  text-transform:uppercase;  font-size:12px;  line-height:18px;  color:#000;  padding-top:10px;  padding-bottom:10px;  margin-top:30px;  margin-left:20px;  border:none;  background:#f1f1f1;  vertical-align:baseline}
+.write-us input[name="cancel"]:hover{ background:#e5e5e5}
+.write-us input[name="cancel"]:active{ background:#d5d5d5;  box-shadow:inset 0 3px 0 0 #b5b5b5;  border:none}
+.write-us input[name="cancel"]:active, .write-us input[name="cancel"]:focus{ outline:none}
